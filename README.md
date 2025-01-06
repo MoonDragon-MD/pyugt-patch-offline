@@ -5,7 +5,7 @@ Allows you to start Pyugt completely offline to use it with LibreTranslate witho
 -      pip install ssl flask
 - pyugt ( https://github.com/lrq3000/pyugt/ )
 - edit the windows "HOSTS" file and add: 
--       pip 127.0.0.1 geolocation.onetrust.com #[pyugt patch offline]
+-        127.0.0.1 geolocation.onetrust.com #[pyugt patch offline]
 - edit RUN.bat (change the path to folders based on your installation location)
 - put the contents of the “certifi” folder in the pyugt installation folder and overwrite
 - ##### LibreTranslate (Argos) [localhost:5000]
